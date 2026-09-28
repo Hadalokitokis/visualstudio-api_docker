@@ -43,8 +43,6 @@ services:
 
 volumes:
   pgdata:
-    external: true
-    name: pgdata-practica
 
 networks:
   interna:
